@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link rel="stylesheet" type=text/css href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type=text/css href="css/blog.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand"><img src="img/logo-black.png" width="100"></a>
+                        <button class="navbar-toggler" type="button" data-bs-target="#navbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link p-3" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3" href="#">About us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-3" href="#"  data-bs-toggle="dropdown">Products</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Shop</a></li>
+                                        <li><a class="dropdown-item" href="#">Cart</a></li>
+                                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                        <li><a class="dropdown-item" href="#">My account</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3" href="#">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3" href="#">Contacts</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-3" href="#" data-bs-toggle="dropdown">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Typography</a></li>
+                                      <li><a class="dropdown-item" href="#">Form Elements</a></li>
+                                      <li><a class="dropdown-item" href="#">Shortcodes</a></li>
+                                      <li><a class="dropdown-item" href="#">Lists</a></li>
+                                      <li><a class="dropdown-item" href="#">Under Construction</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div>
+                                <i class="icofont-cart p-3"></i>
+                                <i class="icofont-search-1 p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel slide -->
+    <section>
+        <div class="carousel slide carousel-fade"  data-bs-ride="carousel" id="carouselfade">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="img/slider1.jpg" class="d-block w-100" height="550">
+                    <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+                        <h1 class="header">The Coffee Herald</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore et</p>
+                        <button class="btn-main">FIND A TABLE</button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/slider2.jpg" class="d-block w-100" height="550">
+                    <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+                        <h1 class="header">A Long Tredition</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore et</p>
+                        <button class="btn-main">FIND A TABLE</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carouselfade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carouselfade" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Bestsellers -->
+    <section>
+        <div class="container">
+            <div class="row p-50">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h5 class="h5 color">Our Bestsellers</h5>
+                    <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod temporo incididunt.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 position-relative">
+                    <div class="best-box mt-sm-5">
+                        <img src="img/best1.jpg" class="img-fluid">
+                        <div class="position-absolute text-center">
+                            <h4>Paper Cups</h4>
+                            <p>$9.00</p>
+                        </div>
+                        <div class="position-absolute2">
+                            <button class="btn bg-white p-2">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 position-relative">
+                    <div class="best-box mt-sm-5">
+                        <img src="img/best2.jpg" class="img-fluid">
+                        <div class="position-absolute text-center">
+                            <h4>Custome Bag</h4>
+                            <p>$27.00</p>
+                        </div>
+                        <div class="position-absolute2">
+                            <button class="btn bg-white p-2">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 position-relative">
+                    <div class="best-box mt-sm-5">
+                        <img src="img/best3.jpg" class="img-fluid">
+                        <div class="position-absolute text-center">
+                            <h4>Brasil Coffee</h4>
+                            <p>$14.00</p>
+                        </div>
+                        <div class="position-absolute2">
+                            <button class="btn bg-white p-2">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- icon -->
+    <section>
+        <div class="container">
+            <div class="row p-50">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-center">
+                            <img src="img/b-icon1.png" class="img">
+                        <h3 class="pt-3">Coffe To Go</h3>
+                        <p>Labore et dolore magna aliqua, ad minim veniam quis nostrud</p>
+                        <button class="btn">Read more <i class="icofont-long-arrow-right"></i> </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-center">
+                            <img src="img/b-icon2.png" class="img">
+                        <h3 class="pt-3">French Press</h3>
+                        <p>Vivid et amet magna, aliqua lorem ipsum minim veniam quis sed</p>
+                        <button class="btn">Read more <i class="icofont-long-arrow-right"></i> </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-center">
+                            <img src="img/b-icon3.png" class="img">
+                        <h3 class="pt-3">Espresso</h3>
+                        <p>Lorem ipsum et magna aliqua sed dolor minim, veniam quis vivid</p>
+                        <button class="btn">Read more <i class="icofont-long-arrow-right"></i> </button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="text-center">
+                            <img src="img/b-icon4.png" class="img">
+                        <h3 class="pt-3">Dark Roast</h3>
+                        <p>Magna vivid et dolore lorem aliqua veniam, sed in amet ipsum</p>
+                        <button class="btn">Read more <i class="icofont-long-arrow-right"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations -->
+    <section class="location-bg">
+        <div class="container">
+            <div class="row p-50 m-50">
+                <div class="col-lg-7 col-md-7 col-sm-12"></div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class="bg-white text-center pt-3 pb-3 mb-5 mt-5">
+                        <h3>Our Locations</h3>
+                        <p>Los Angeles, Street 10</p>
+                        <p>010/3456789</p>
+                        <img src="img/iconfu.png" class="img-fluid">
+                        <p>Los Angeles, Street 10</p>
+                        <p>010/3456789</p>
+                        <img src="img/iconfu.png" class="img-fluid">
+                        <p>Los Angeles, Street 10</p>
+                        <p>010/3456789</p>
+                        <img src="img/iconfu.png" class="img-fluid">
+                        <p>Los Angeles, Street 10</p>
+                        <p>010/3456789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coffe & Cups -->
+    <section>
+        <div class="container-fluid">
+            <div class="row m-50">
+                <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+                    <img src="img/h3-image-01.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+                    <div class="bg-danger-subtle text-center">
+                        <div style="width: 45%;" class="pt-lg-5 pt-md-3 pt-sm-5 mx-auto d-block">
+                            <img src="img/h3-image-02.jpg" class="img-fluid">
+                        </div>
+                        <h3 class="pt-lg-5 pt-md-2 pt-sm-3 h3">Coffe & Cups</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate<br>velit esse cillum dolore eu lorem</p>
+                        <button class="btn mb-lg-5 mb-md-1">Read more <i class="icofont-long-arrow-right"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="bg-dark text-white">
+        <div class="container">
+            <div class="row m-50 p-50">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <img src="img/logo.png" class="img-fluid mb-5">
+                    <p class="text-white">Pellentesque congue non augue vitae pellentesque. Morbi sollicitudin eleifend rhoncus. Mauris vel nisl a massa viverra sollicitudin semper a diam.</p>
+                    <button class="btn-main mt-3 mb-5">Purchase Theme</button>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h5 class="color h5 pt-3">EXPLORE</h5>
+                    <div class="row pb-2 pt-3">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <h5><i class="icofont-simple-right"></i> Home</h5>
+                            <h5><i class="icofont-simple-right"></i> Contact Us</h5>
+                            <h5><i class="icofont-simple-right"></i> Products</h5>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <h5><i class="icofont-simple-right"></i> Blog</h5>
+                            <h5><i class="icofont-simple-right"></i> About us</h5>
+                            <h5><i class="icofont-simple-right"></i> Gallery</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h5 class="color h5 pb-2 pt-2">CONTACT US</h5>
+                    <h5 class="pt-3"><i class="icofont-phone"></i> +10800-33-800; +10500-55-900</h5>
+                    <h5><i class="icofont-email"></i> mycoffee@mycoffeeshop.us</h5>
+                    <h5><i class="icofont-skype"></i> mycoffeeshop</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
